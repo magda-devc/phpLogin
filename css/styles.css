@@ -1,0 +1,24 @@
+.nav-bar{
+    display: flex;
+    background-color: black;
+}
+li{
+    margin-left: 50px;
+    display: block;
+    border: none;
+    transition: .5s;
+    padding: 30px 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+li:hover{
+    background-color: aqua;
+}
+a{
+    cursor: pointer;
+}
+
+
